@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практична робота №1_1</title>
+    <style>
+        label, input, button { display: block; margin-bottom: 10px;}
+        input { width: 100px; padding: 5px; }
+        button{background: #218838;display: block;color: white;height:50px; width: 200px}
+        button:hover { background: #218838; }
+        </style>
+</head>
+<body>
+<h2>Калькулятор складу палива</h2>
+<label>Водень (Hₚ, %): <input type="number" id="1" ></label>
+<label>Вуглець (Cₚ, %): <input type="number" id="2" ></label>
+<label>Сірка (Sₚ, %): <input type="number"  id="3" ></label>
+<label>Азот (Nₚ, %): <input type="number" id="4" ></label>
+<label>Кисень (Oₚ, %): <input type="number" id="5" ></label>
+<label>Волога (Wₚ, %): <input type="number" id="6" ></label>
+<label>Зола (Aₚ, %): <input type="number" id="7" ></label>
+
+<button onclick="calculate()">Обрахувати</button>
+
+<div class="result" id="res"></div>
+
+<script src="Pr1_1.js"></script>
+</body>
+</html>

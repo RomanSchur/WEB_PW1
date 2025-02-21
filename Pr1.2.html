@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Практична робота №1_3</title>
+  <style>label,input{display: block;margin-bottom: 10px;width: 200px}
+  button{background: #218838;display: block;color: white;height:50px; width: 200px}
+  </style>
+</head>
+<body>
+<h2>Калькулятор елементарного складу</h2>
+ <label><b>Вуглець, %:</b><input type="number" id="1"></label>
+ <label><b>Водень, %:</b><input type="number" id="2"></label>
+ <label><b>Кисень, %:</b><input type="number" id="3"></label>
+ <label><b>Сірка, %:</b><input type="number" id="4"></label>
+ <label><b>НТЗ горючої маси мазуту, МДж/кг:</b><input type="number" id="5"></label>
+ <label><b>Вологість робочої маси , %:</b><input type="number" id="6"></label>
+ <label><b>Зольність сухої маси , %:</b><input type="number" id="7"></label>
+ <label><b>Вміст ванадію , %:</b><input type="number" id="8"></label>
+ <button onclick="calculete()">Обрахувати</button>
+
+<div class="result" id="output"></div>
+
+<script src="Pr1_2.js"></script>
+</body>
+</html>
